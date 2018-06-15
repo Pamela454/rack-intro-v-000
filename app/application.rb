@@ -8,6 +8,7 @@ class Application
 
   def last_response(env)
     resp = Rack::Response.new
+    resp.write "Hello, my name is Pamela."
   end
 
 
