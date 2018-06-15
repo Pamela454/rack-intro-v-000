@@ -7,7 +7,7 @@ class Application
   end
 
   def last_response(env)
-
+    resp = Rack::Response.new
   end
 
 
