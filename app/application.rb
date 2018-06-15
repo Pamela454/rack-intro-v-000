@@ -6,4 +6,9 @@ class Application
     resp.finish
   end
 
+  def last_response(env)
+
+  end
+
+
 end
